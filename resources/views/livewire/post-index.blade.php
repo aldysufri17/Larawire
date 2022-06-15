@@ -20,7 +20,7 @@
             </select>
         </div>
         <div class="col">
-            <input wire:model="search" value="gsg" name="" type="text" placeholder="Cari Kegiatan" class="form-control">
+            <input wire:model="search" value="gsg" autofocus type="text" placeholder="Cari Kegiatan" class="form-control">
         </div>
     </div>
     @if ($data->isNotEmpty())
